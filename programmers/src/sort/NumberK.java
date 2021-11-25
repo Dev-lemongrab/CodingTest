@@ -23,6 +23,7 @@ public class NumberK {
 	            answer[i] = tmp[k-1];
 	        }
 	        return answer;
+	   
 	    }
 	
 }

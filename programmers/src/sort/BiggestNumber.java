@@ -24,7 +24,7 @@ public class BiggestNumber {
 		        Arrays.sort(str, new Comparator<String>() {
 		        	@Override
 		        	public int compare(String o1, String o2) {
-		        		return (o2+o1).compareTo(o1+o2);
+		        		return (o2+o1).compareTo(o1+o2); 
 		        	}
 		        });
 
@@ -36,7 +36,7 @@ public class BiggestNumber {
 		        if(str[0].equals("0")){
 		            answer = "0";
 		        }
-		        
+		        System.out.println("23".compareTo("32"));
 		        System.out.println(answer);
 		       //3,2   23 과  32 비교 -1 내림차순 3,2 그대로
 		        
