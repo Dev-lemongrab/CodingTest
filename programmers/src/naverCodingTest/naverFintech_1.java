@@ -1,9 +1,9 @@
-package BigO;
+package naverCodingTest;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class dd {
+public class naverFintech_1 {
 	public static int[] solution(String[] record) {
 		int sold_cnt = 0;
 		int firstcome =0;
